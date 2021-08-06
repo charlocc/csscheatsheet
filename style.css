@@ -1,0 +1,50 @@
+:root{
+    --darkred: #a80303c4;
+    --light: #d3d0d0;
+
+
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.css-boxes{
+    display:flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+.card{
+    flex: 1 0 200px;
+}
+
+pre {
+    /* set styles to make it so code wraps in <pre> instead of overflowing */
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    color: var(--gin);
+    border-radius: 8px;
+    /* use linear-gradient() function to create a fading background  */
+    background-image: linear-gradient(
+      rgba(232, 102, 236, 0.3) 0%,
+      rgba(232, 102, 236, 0.6) 100%
+    );
+    display: flex;
+    align-items: center;
+  }
+
+
