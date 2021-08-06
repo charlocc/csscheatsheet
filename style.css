@@ -28,6 +28,10 @@ main{
 
 .card{
     flex: 1 0 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
 }
 
 pre {
